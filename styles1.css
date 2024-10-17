@@ -1,53 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: Arial;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
+body {
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #202124;
 }
-header{
-    display: flex; 
-    justify-content: flex-end;
-    padding: 15px 15px;
-    background-color: white;
-    box-shadow: 0 1px 6px
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 15px;
 }
-.header-right a { margin-right: 15px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    line-height: 24px;
-    vertical-align: middle;
+.header-right a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 24px;
+  vertical-align: middle;
 }
 
-.header-right{
-    display: flex;
-    align-items: center;
+.header-right {
+  display: flex;
+  align-items: center;
 }
-.Profile-Icon{ 
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
+.Profile-Icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
 }
 /* the main content */
-.continer{
-    text-align: center;
-    flex: 1;
+.continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.logo{
-display: flex;
-    width: 272px;
-    height: 92px;
-    margin: 100px 0px 20px 0px;
+.logo {
+  display: flex;
+  width: 272px;
+  height: 92px;
+  margin-bottom: 25px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-.search-input {
+.search-bar {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,14 +59,13 @@ display: flex;
   border-radius: 20px;
   outline: none;
   margin-bottom: 20px;
- background-color: black;}
+}
 .buttons {
   display: flex;
   justify-content: center;
 }
 .btn {
   margin: 11px 4px;
-  margin-bottom: 20px;
   padding: 0 16px;
   background-color: #303134;
   border: 1px solid #303134;
@@ -74,54 +73,4 @@ display: flex;
   font-size: 14px;
   cursor: pointer;
   height: 36px;
-=======
-.search-bar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 580px;
-    height: 40px;
-    padding: 0 15px;
-    font-size: 16px;
-    border: 1px solid #d9d9d9;
-    border-radius: 20px ;
-    outline: none;
-    margin-bottom: 20px;
-}
-.buttons{
-    display: flex;
-    justify-content: center;
-}
-=======
-.search-bar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 580px;
-    height: 40px;
-    padding: 0 15px;
-    font-size: 16px;
-    border: 1px solid #d9d9d9;
-    border-radius: 20px ;
-    outline: none;
-    margin-bottom: 20px;
-}
-.buttons{
-    display: flex;
-    justify-content: center;
-}
->>>>>>> parent of 8be2b11 (a)
-.btn{
-    margin: 11px 4px;
-    padding: 0 16px;
-    background-color: #303134;
-    border: 1px solid #303134;
-    border-radius: 4px;
-    font-size: 14px;
-    cursor: pointer;
-    height: 36px;
-<<<<<<< HEAD
->>>>>>> parent of 8be2b11 (a)
-=======
->>>>>>> parent of 8be2b11 (a)
 }
