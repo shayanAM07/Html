@@ -46,6 +46,7 @@ display: flex;
     margin: 100px 0px 20px 0px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .search-input {
   display: flex;
   flex-direction: column;
@@ -91,6 +92,25 @@ display: flex;
     display: flex;
     justify-content: center;
 }
+=======
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px ;
+    outline: none;
+    margin-bottom: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+>>>>>>> parent of 8be2b11 (a)
 .btn{
     margin: 11px 4px;
     padding: 0 16px;
@@ -100,5 +120,8 @@ display: flex;
     font-size: 14px;
     cursor: pointer;
     height: 36px;
+<<<<<<< HEAD
+>>>>>>> parent of 8be2b11 (a)
+=======
 >>>>>>> parent of 8be2b11 (a)
 }
