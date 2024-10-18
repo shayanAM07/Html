@@ -82,16 +82,29 @@ header {
   cursor: pointer;
   height: 36px;
 }
-.div-footer{
-  display: flex;
+/* .div-footer{
+  /* display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  align-content: end;
-}
+  align-content: end; */
+ */
 .div-rast{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
 
+}
+.div-chap{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.footer{
+  color: #d9d9d9;
+  font-family: Arial;
+  font-size: 14px;
+  margin: 20px 0;
+  
 }
